@@ -1,0 +1,95 @@
+:root {
+  font-family: "Roboto" sans-serif;
+  color: (--body-color-white--);
+  color: black white;
+}
+.links {
+  display: inline-block;
+  color: black;
+  height: 16px;
+  width: 254px;
+  left: 453px;
+  top: 32px;
+  border-radius: 0px;
+}
+
+.navigation {
+  display: inline-block;
+}
+.mail a {
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 16px;
+  display: inline-block;
+  color: #2196f3;
+  width: 135px;
+  height: 16px;
+  top: 32px;
+  margin-left: 1078px;
+  inline-size: 0, 03em;
+  line-height: 1, 7;
+  margin: 50;
+}
+.a {
+  font-family: Raleway;
+  font-style: Bold;
+  font-size: 26px;
+  line-height: 1.5;
+  color: blue 2196F3;
+  offset: 0px, 4px;
+}
+
+.logo2 a {
+  font-family: Raleway;
+  font-style: Bold;
+  font-size: 26px;
+  line-height: 1, 5;
+  color: black 000000;
+  offset: 0px, 4px;
+}
+.agencja a {
+  color: #2196f3;
+}
+.number {
+  display: inline-block;
+  color: #757575;
+  height: 31px;
+  width: 145px;
+  left: 215px;
+  top: 24px;
+  border-radius: nullpx;
+}
+.p {
+  text-align: center;
+}
+.title {
+  text-align: center;
+  font-size: Roboto;
+  font-weight: 900;
+  line-height: 2, 6;
+  padding: 200px 452px 280px 452px;
+  background: #2f303a;
+  color: white;
+  height: 120px;
+  width: 696px;
+  left: 452px;
+  top: 280px;
+  border-radius: nullpx;
+}
+.button order {
+  text-align: center;
+  padding: 200px 452px 280px 452px;
+  background-color: blue;
+  color: white;
+  cursor: pointer;
+}
+.atuty {
+  display: flex;
+  margin-right: 215;
+  margin-left: 215;
+  padding-left: 30;
+}
+
+.footer {
+  background-color: #2f303a;
+}
