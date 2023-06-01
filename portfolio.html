@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css" integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./css/styles.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -12,52 +13,58 @@
       href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
-    <style>
-      body {
-        font-family: "Roboto", sans-serif;
-      }
-    </style>
   </head>
 
   <body>
     <header>
       <nav class="navigation">
-        <a href="index.html">Webstudio</a>
+        <a class="footer-logo" href="index.html"
+          ><span class="logo2">Web</span><span class="logo-web">Studio</span></a
+        >
         <ul>
-          <li class="links"><a href="#"></a>Agencja</li>
-          <li class="links"><a href="portfolio.html"></a>Portfolio</li>
-          <li class="links"><a href="#"></a>Kontakt</li>
+          <li><a class="links" href="#"> </a>Agencja</li>
+          <li><a class="links" href="portfolio.html"></a>Portfolio</li>
+          <li><a class="links" href="#"></a>Kontakt</li>
         </ul>
       </nav>
+      <ul>
+        <li>
+          <a class="mail" href="mailto:info@devstudio.com"
+            >mail:info@devstudio.com</a
+          >
+        </li>
 
-      <a href="mailto:info@devstudio.com">mail:info@devstudio.com</a>
-
-      <a href="tel:+48111111111">+48 111 111 111</a>
+        <li><a class="number" href="tel:+48111111111">+48 111 111 111</a></li>
+      </ul>
     </header>
 
     <main>
       <ul>
         <li>
-          <button type="button">Wszystkie</button>
+          <button class="button.portfolio" type="button">Wszystkie</button>
         </li>
         <li>
-          <button type="button">Strony</button>
+          <button class="button.portfolio" type="button">Strony</button>
         </li>
-        <li><button type="button">Aplikacje</button></li>
-        <li><button type="button">Dizajn</button></li>
-        <li><button type="button">Marketing</button></li>
+        <li>
+          <button class="button.portfolio" type="button">Aplikacje</button>
+        </li>
+        <li><button class="button.portfolio" type="button">Dizajn</button></li>
+        <li>
+          <button class="button.portfolio" type="button">Marketing</button>
+        </li>
       </ul>
       <!--h1obrazki-->
       <section>
         <ul>
           <li>
-            <a href="">
+           
               <img
                 src="images/images hw2/img (3).jpg"
                 alt="people in komputer"
                 width="370"
                 height="294"
-                img
+              
               />
             </a>
             <h3>Technocrak</h3>
@@ -65,13 +72,13 @@
           </li>
 
           <li>
-            <a href="">
+          
               <img
                 src="images/images hw2/img-1 (1).jpg"
                 alt="basketball players"
                 width="370"
                 height="294"
-                img
+              
               />
             </a>
             <h3>Grafika New Orlean vs Golden Star</h3>
@@ -79,26 +86,26 @@
           </li>
 
           <li>
-            <a href="">
+    
               <img
                 src="images/images hw2/img-2.jpg"
                 alt="The seafood restaurant"
                 width="370"
                 height="294"
-                img
+              
             /></a>
             <h3>Restauracja Seafood</h3>
             <p>Aplikacja</p>
           </li>
 
           <li>
-            <a href=""
-              ><img
+          
+              <img
                 src="images/images hw2/img-3.jpg"
                 alt="wireless headphones"
                 width="370"
                 height="294"
-                img
+              
               />
             </a>
             <h3>Projekt Prime</h3>
@@ -106,13 +113,12 @@
           </li>
 
           <li>
-            <a href="">
-              <img
+                        <img
                 src="images/images hw2/img-4 (1).jpg"
                 alt="boxs"
                 width="370"
                 height="294"
-                img
+              
               />
             </a>
             <h3>Projekt Boxes</h3>
@@ -120,13 +126,13 @@
           </li>
 
           <li>
-            <a href="">
+          
               <img
                 src="images/images hw2/img-5.jpg"
                 alt="computer"
                 width="370"
                 height="294"
-                img
+                
               />
             </a>
             <h3>Inspiration has no Borders</h3>
@@ -134,38 +140,38 @@
           </li>
 
           <li>
-            <a href="">
+        
               <img
                 src="images/images hw2/img-6.jpg"
                 alt="open newspaper"
                 width="370"
                 height="294"
-                img
+          
             /></a>
             <h3>Magazyn Limited Edition</h3>
             <p>Dizajn</p>
           </li>
           <li>
-            <a href="">
+      
               <img
                 src="images/images hw2/img-7.jpg"
                 alt="some kind of label"
                 width="370"
                 height="294"
-                img
+              
               />
             </a>
             <h3>Projekt LAB</h3>
             <p>Marketing</p>
           </li>
           <li>
-            <a href="">
+          
               <img
                 src="images/images hw2/img-8.jpg"
                 alt="hands on computer"
                 width="370"
                 height="294"
-                img
+              
               />
             </a>
           </li>
@@ -175,8 +181,11 @@
 
     <footer class="footer">
       <div>
-        <a href="index.html">Webstudio</a>
-        <address class="footer">
+        <a class="footer-logo" href="index.html"
+          ><span class="logo2">Web</span
+          ><span class="logo-web-footer">Studio</span></a
+        >
+        <address>
           Warszawa <br />
           Aleje Jerozolimskie 21 <br />
           <a href="mailto:info@example.com">info@example.com</a>
