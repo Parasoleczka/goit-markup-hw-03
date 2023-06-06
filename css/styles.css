@@ -21,7 +21,10 @@
 
 
 .navigation {
-  display: inline-block;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 100%;
 }
 .mail {
   font-family: Roboto;
@@ -94,7 +97,7 @@
   border-radius: 5px 5px;
   border-style: 5px ;
   
-.button.portfolio {
+.button-portfolio {
   cursor: pointer;
   background-color: white;
   color: #212121;
@@ -315,3 +318,11 @@
     }
     .footer-phone:hover {
           color: #2196f3;}
+
+   .conteiner {
+width: 1600px;
+left: 0px;
+top: 0px;
+border-radius: 0px;
+
+     }
