@@ -21,9 +21,9 @@
 
 body 
   font-family:var('Roboto' 'Raleway' sans-serif);
-    background-color: var(--background-color);
+ background-color:var(--background-color);
   
-.flex-style {
+.flex-style .conteiner {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -35,6 +35,7 @@ body
     display: inline-flex;
     flex-direction: row;
     justify-content: space-around;
+    margin-left: 93px;
   
 }
 .mail {
@@ -49,7 +50,7 @@ body
   margin-left: 1078px;
   inline-size: 0, 03em;
   line-height: 1, 7;
-  margin: 50;
+  padding-left: 50;
 }
 .logo-web {
   font-family: Raleway;
@@ -71,25 +72,15 @@ body
 .agencja {
   color:var(--blue-color);
 }
-.number {
-  display: inline-block;
-  color: var(--gray-text-color);
-  height: 31px;
-  width: 145px;
-  left: 215px;
-  top: 24px;
- 
-}
-
 
 .title {
   text-align: center;
   font-size: 44px;
   font-weight: 900;
-  line-height: 1,36;
+  line-height: 1.36;
   padding: 200px 452px 280px 452px;
   background:var(--secondry-bacground-color);
-  color: white;
+   color: white;
   font-style: normal;
   font-family: 'Roboto';
   text-transform: uppercase;
@@ -159,16 +150,13 @@ body
   padding-left: 46px;
   list-style-type: none;
 }
-.navigation {
 
-}
+
 .navigation:hover {
   color: var(--blue-color);
   
 }
-
 .number {
-  color: #757575;
   text-decoration: none;
   font-family: Roboto;
   font-weight: 500;
@@ -176,6 +164,11 @@ body
   letter-spacing: 0.02em;
   line-height: 1.14;
   list-style-type: none;
+    display: flex;
+    color: var(--gray-text-color);
+    width: 145px;
+    padding-left: 215px;
+    top: 24px;
 }
 .number:hover {
   color: var(--blue-color);
@@ -194,8 +187,12 @@ body
   color: var(--blue-color);
 
 }
-
-
+.inline {
+ 
+ display: flex;
+  margin: 0 auto;
+  
+}
 
 .text {
   color:#757575;
@@ -205,6 +202,8 @@ body
   letter-spacing: 0.03em;
   font-style: normal;
   line-height: 1.7;
+  display: inline;
+  padding-left: 30;
 }
 .footer {
   background-color: var(--secondry-bacground-color);
@@ -349,9 +348,11 @@ body
 
    .conteiner {
 width: 1200px;
-left: 0px;
+margin-left: 0px;
 top: 0px;
 border-radius: 0px;
+height: 600;
+
 
      }
      
