@@ -115,8 +115,14 @@ body {
   font-size: 14px;
   letter-spacing: 0.02em;
   text-decoration: none;
-  line-height: 1.14;
-}
+  line-height: 1.14; }
+  .about-list {
+    display: flex;
+  justify-content: space-between;
+   margin-right: 215;
+   margin-left: 215;
+   padding-left: 30;}
+   
 .about-h3 {
   display: flex;
   justify-content: space-between;
@@ -125,6 +131,12 @@ body {
    padding-left: 30px;
    padding-right: 30px;
 
+}
+
+.our-job-container {
+  display: block;
+justify-content: flex-start;
+align-items: flex-start;
 }
 
 .agencja {
@@ -149,17 +161,10 @@ body {
   
 }
 
-.about-container {
- 
- display: flex;
- justify-content: space-between;
-  margin-right: 215;
-  margin-left: 215;
-  padding-left: 30;
-  
-}
+
 .team {
-  display: block;
+  display: inline;
+  align-items: center;
   justify-content: space-between;
   margin-right: 215;
   margin-left: 215;
@@ -377,18 +382,6 @@ body {
   border-radius: 5px 5px;
   border-style: 5px ;}
   
-.button-portfolio {
-  cursor: pointer;
-  background-color: white;
-  color: #212121;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  letter-spacing: 0.03em;
-  line-height: 1.88;
-  border-radius: 5px 5px;
-  border-style: 5px;
-}
   .button-portfolio:hover {
     background-color:blue;
     color:blueviolet;
