@@ -31,8 +31,8 @@ body {
 
 .header-container {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+ justify-content: space-between;
+   align-items: center;
 }
 
 .navigation {
@@ -40,6 +40,36 @@ body {
        justify-content:flex-start;
     margin-left: 93px;
   
+}
+.agencja {
+  padding-left: 93px; 
+  list-style-type: none;
+
+
+}
+.portfolio {
+  padding-left: 46px;
+  list-style-type: none;
+  
+}
+.kontakt {
+  padding-left: 46px;
+  list-style-type: none;
+}
+
+.navigation:hover {
+  color: var(--blue-color);
+  
+}
+.second-nav {
+  display: flex;
+  justify-content: space-between;
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: 0.02em;
+  align-content: baseline;
+  gap: 10px;
+
 }
 .mail a {
   font-family: Roboto;
@@ -66,10 +96,8 @@ body {
   list-style-type: none;
     display: flex;
     color: var(--gray-text-color);
-    width: 145px;
-    padding-left: 215px;
-    top: 24px;
-}
+    width: 135px;
+   }
 .number:hover {
   color: var(--blue-color);
 }
@@ -91,21 +119,43 @@ body {
 
 }
 
-
 .hero-container {
-  text-align: center;
-  font-size: 44px;
-  font-weight: 900;
-  line-height: 1.36;
-  padding: 200px 452px 280px 452px;
   background:var(--secondry-bacground-color);
-   color: white;
-  font-style: normal;
-  font-family: 'Roboto';
-  text-transform: uppercase;
+ max-width: 1600px;
+ margin: 0 auto;
+ height: 600px;
+  
+  }
+  .hero-text {
+    
+      font-size: 44px;
+      font-weight: 900;
+      color: #ffffff;
+      padding: 200px 252px 0 252px;
+      text-align: center;
+      line-height: 1.36;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+    }
+  .button-hero {
+    display: flex;
+     justify-content: center;
+      background-color:var(--blue-color);
+      color: white;
+      cursor: pointer;
+      font-weight: 700;
+      font-size: 16px;
+      letter-spacing: 0.06em;
+      line-height: 1.88;
+      border-radius: 5px 5px;
+      width: 200px ;
+    height: 50;
+    border: 1px;
+    padding: 10px 0 ;
+    margin: auto;
+    }
 
   
-}
 
 .about-container {
   color: var(--navigation-color);
@@ -116,9 +166,11 @@ body {
   letter-spacing: 0.02em;
   text-decoration: none;
   line-height: 1.14; }
+
   .about-list {
     display: flex;
   justify-content: space-between;
+  justify-content: flex-start;
    margin-right: 215;
    margin-left: 215;
    padding-left: 30;}
@@ -126,64 +178,12 @@ body {
 .about-h3 {
   display: flex;
   justify-content: space-between;
+  justify-content: flex-start;
    margin-right: 215;
    margin-left: 215;
    padding-left: 30px;
    padding-right: 30px;
 
-}
-
-.our-job-container {
-  display: block;
-justify-content: flex-start;
-align-items: flex-start;
-}
-
-.agencja {
-  padding-left: 93px;
-  list-style-type: none;
-
-
-}
-.portfolio {
-  padding-left: 46px;
-  list-style-type: none;
-  
-}
-.kontakt {
-  padding-left: 46px;
-  list-style-type: none;
-}
-
-
-.navigation:hover {
-  color: var(--blue-color);
-  
-}
-
-
-.team {
-  display: inline;
-  align-items: center;
-  justify-content: space-between;
-  margin-right: 215;
-  margin-left: 215;
-  padding-left: 30;
-
-}
-.team-text {
-  display: flex;
-  justify-content: center;
-
-}
-.team-list-item {
-  display:flex;
-  background-color: #F5F4FA;
-  justify-content: space-around;
-  padding-left: 30px;
-  padding-right: 30px;
-  padding-top: 50px;
-  padding-bottom: 94px;
 }
 .text {
   color:#757575;
@@ -197,6 +197,51 @@ align-items: flex-start;
   padding-left: 30;
 
 }
+
+.our-job-container {
+display: block;
+justify-content: flex-start;
+align-items: flex-start;
+}
+.our-job-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.our-job-list {
+  display: flex;
+  justify-content: space-around;
+  margin-right: 215;
+   margin-left: 215;
+   padding-left: 30px;
+   padding-right: 30px;
+padding-top: 50px;
+}
+
+.team-container {
+  display: flex;
+  display: block;
+  justify-content: flex-start;
+ align-items: flex-start;
+}
+.team-text {
+  display: flex;
+  justify-content: center;
+
+}
+.team-list {
+  display:flex;
+  background-color: #F5F4FA;
+  justify-content: space-around;
+  justify-content: flex-start;
+  align-items: center;
+  }
+  .team-list-item {
+    display: flex;
+    justify-content: space-around;
+  
+  }
+
 .footer {
   background-color: var(--secondry-bacground-color);
   font-family: Raleway;
@@ -241,17 +286,7 @@ align-items: flex-start;
   line-height: 1.7;
   font-style: normal;
 }
-.button {
-  text-align: center;
-  background-color: blue;
-  color: white;
-  cursor: pointer;
-  font-weight: 700;
-  font-size: 16px;
-  letter-spacing: 0.06em;
-  line-height: 1.88;
-  border-radius: 5px 5px;
-  border-style: 5px ;}
+
   
 .button-portfolio {
   cursor: pointer;
