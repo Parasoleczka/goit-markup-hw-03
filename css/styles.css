@@ -122,7 +122,8 @@ body {
   justify-content: space-between;
    margin-right: 215;
    margin-left: 215;
-   padding-left: 30;
+   padding-left: 30px;
+   padding-right: 30px;
 
 }
 
@@ -157,19 +158,22 @@ body {
   padding-left: 30;
   
 }
+.team {
+  display: block;
+  justify-content: space-between;
+  margin-right: 215;
+  margin-left: 215;
+  padding-left: 30;
+
+}
 .team-text {
   display: flex;
   justify-content: center;
-  flex-direction: row;
 
 }
-.team {
-  display: flex;
+.team-list-item {
+  display:flex;
   background-color: #F5F4FA;
-}
-
-.john-doe {
-  display: flex;
   justify-content: space-around;
   padding-left: 30px;
   padding-right: 30px;
