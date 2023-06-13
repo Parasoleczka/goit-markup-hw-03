@@ -25,11 +25,9 @@ body
   
 .flex-style .conteiner {
   display: flex;
-  justify-content space-between;
-  align-items center;
-  height: 100px; 
-
-}
+  justify-content: space-between;
+  align-items: center;
+ }
 
 .navigation {
     display: inline-flex;
@@ -119,9 +117,8 @@ body
 
 .our-job {
   display: flex;
-  margin-right: 215;
-  margin-left: 215;
-  padding-left: 30;
+  justify-content: center;
+ 
 }
 
 .links {
@@ -182,6 +179,7 @@ body
   letter-spacing: 0.02em;
   line-height: 1.14;
   list-style-type: none;
+  display: flex;
 }
 .mail:hover {
   color: var(--blue-color);
@@ -190,10 +188,31 @@ body
 .inline {
  
  display: flex;
-  margin: 0 auto;
+ justify-content: space-between;
+  margin-right: 215;
+  margin-left: 215;
+  padding-left: 30;
   
 }
+.team-text {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
 
+}
+.team {
+  display: flex;
+  background-color: #F5F4FA;
+}
+
+.john-doe {
+  display: flex;
+  justify-content: space-around;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 50px;
+  padding-bottom: 94px;
+}
 .text {
   color:#757575;
   font-family: Roboto;
