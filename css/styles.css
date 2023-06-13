@@ -20,14 +20,14 @@
 }
 
 body 
-  font-family:var('Roboto' 'Raleway' sans-serif);
- background-color:var(--background-color);
+  font-family:var('Roboto''Raleway' sans-serif)
+ background-color:var(--background-color)
   
 .flex-style .conteiner {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
-  height: 100%; 
+  justify-content space-between;
+  align-items center;
+  height: 100px; 
 
 }
 
@@ -204,6 +204,7 @@ body
   line-height: 1.7;
   display: inline;
   padding-left: 30;
+
 }
 .footer {
   background-color: var(--secondry-bacground-color);
