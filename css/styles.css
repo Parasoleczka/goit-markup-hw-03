@@ -173,6 +173,7 @@ body {
   letter-spacing: 0.02em;
   text-decoration: none;
   line-height: 1.14;
+  background-color: #e5e5e5;
 }
 
 .about-list {
@@ -427,8 +428,15 @@ body {
 }
 .logo-web-header-portfolio {
   color: #2196f3;
+  margin-left: 215px;
 }
-
+.nav-header-portfolio {
+  border-bottom-style: solid #d9d9d9;
+  display: flex;
+  justify-content: center;
+  padding-top: 40.8px;
+  padding-bottom: 40.8px;
+}
 .button-portfolio:hover {
   background-color: blue;
   color: blueviolet;
