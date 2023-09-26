@@ -14,9 +14,8 @@
   --navigation-color: #212121;
 }
 
-body {
+.body {
   font-family: "Roboto", sans-serif;
-  background-color: #e5e5e5;
 }
 * {
   margin: 0;
@@ -26,12 +25,14 @@ body {
   width: 1200px;
   margin: 0 auto;
   padding: 0.15px;
+  background-color: var(--tittle-color);
 }
 
 .header-container {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  background-color: #e5e5e5;
   /* margin: auto; */
 }
 .navigation {
@@ -39,6 +40,7 @@ body {
   justify-content: flex-start;
   gap: 40px;
   list-style: none;
+  background-color: #e5e5e5;
 }
 .agency a {
   padding-left: 93px;
@@ -140,7 +142,8 @@ body {
   font-size: 44px;
   font-weight: 900;
   color: #ffffff;
-  padding: 200px 252px 0 252px;
+  padding: 120px 252px 0 252px;
+  display: flexbox;
   text-align: center;
   line-height: 1.36;
   letter-spacing: 0.06em;
@@ -232,28 +235,27 @@ body {
 .team-container {
   max-width: 1200px;
   margin: auto;
-  padding-bottom: 94px;
-  padding-top: 94px;
+  /* padding-bottom: 94px;  */
+  /* padding-top: 94px;  */
   display: flex;
-  flex-basis: calc((100% - 90px) / 4);
-  background-color: #f5f4fa;
+  /* flex-basis: calc((100% - 90px) / 4); */
+  background-color: var(--team-section-color);
 }
 .team-text {
   display: flex;
   justify-content: center;
-  margin-bottom: 50px;
-  margin-top: 94px;
+  align-items: center;
 }
 
 .team-list {
   display: flex;
-  background-color: #f5f4fa;
+  /* background-color: #f5f4fa; */
   list-style-type: none;
   margin: 30px;
 }
 .team-list-item {
-  width: 270px;
-  height: 368px;
+  /* width: 270px;
+  height: 368px; */
   margin: auto;
 }
 .team-list-head {
@@ -265,7 +267,7 @@ body {
   justify-content: center;
 }
 
-.footer {
+.footer-container {
   background-color: var(--secondry-bacground-color);
   font-family: Raleway;
   font-size: 26px;
@@ -273,7 +275,8 @@ body {
   letter-spacing: 0.03em;
   color: var(--tittle-color);
   text-decoration: none;
-  list-style-type: none;
+  list-style: none;
+  text-align: start;
 }
 .footer-logo {
   color: var(--main-color);
@@ -295,6 +298,10 @@ body {
   color: var(--blue-color);
   list-style-type: none;
 }
+.inline- footer {
+  text-decoration: none;
+}
+
 .footer-address {
   color: var(--main-color);
   font-family: Roboto;
@@ -319,6 +326,24 @@ body {
   text-decoration: none;
   line-height: 1.7;
   font-style: normal;
+}
+.footer-mail:hover {
+  color: var(--blue-color);
+}
+
+.footer-phone {
+  color: var(--footer-text-color);
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 14px;
+  font-style: normal;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+  line-height: 1.7;
+  font-style: normal;
+}
+.footer-phone:hover {
+  color: #2196f3;
 }
 
 .button-portfolio {
@@ -336,82 +361,6 @@ body {
 .button-portfolio:hover {
   background-color: blue;
   color: blueviolet;
-}
-.footer-mail:hover {
-  color: var(--blue-color);
-}
-
-.footer-phone {
-  color: var(--footer-text-color);
-  font-family: Roboto;
-  font-weight: 400;
-  font-size: 14px;
-  font-style: normal;
-  letter-spacing: 0.03em;
-  text-decoration: none;
-  line-height: 1.7;
-  font-style: normal;
-}
-.footer-phone:hover {
-  color: #2196f3;
-}
-
-.inline-footer {
-  list-style-type: none;
-}
-.footer-logo {
-  color: var(--main-color);
-  font-family: Raleway;
-  font-weight: 700;
-  font-size: 26px;
-  letter-spacing: 0.03em;
-  font-style: normal;
-  text-decoration: none;
-  line-height: 1.19;
-}
-
-.footer-address {
-  color: var(--main-color);
-  font-family: Roboto;
-  font-weight: 400;
-  font-size: 14px;
-  letter-spacing: 0.03em;
-  text-decoration: none;
-  line-height: 1.7;
-  list-style: none;
-  font-style: normal;
-}
-.footer-address:hover {
-  color: #2196f3;
-}
-
-.footer-mail {
-  color: var(--footer-text-color);
-  font-family: Roboto;
-  font-weight: 400;
-  font-size: 14px;
-  letter-spacing: 0.03em;
-  text-decoration: none;
-  line-height: 1.7;
-  font-style: normal;
-}
-.footer-mail:hover {
-  color: var(--blue-color);
-}
-
-.footer-phone {
-  color: var(--footer-text-color);
-  font-family: Roboto;
-  font-weight: 400;
-  font-size: 14px;
-  font-style: normal;
-  letter-spacing: 0.03em;
-  text-decoration: none;
-  line-height: 1.7;
-  font-style: normal;
-}
-.footer-phone:hover {
-  color: #2196f3;
 }
 
 .button {
@@ -446,6 +395,7 @@ body {
   justify-content: flex-start;
   gap: 40px;
   list-style: none;
+  align-items: center;
 }
 .secend-nav-portfolio {
   display: flex;
@@ -464,8 +414,8 @@ body {
 }
 .hero-button-portfolio {
   display: flex;
-  justify-content: center;
   justify-items: center;
+  justify-content: space-between;
   list-style-type: none;
 }
 .images-portfolio {
