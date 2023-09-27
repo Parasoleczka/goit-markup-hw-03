@@ -13,7 +13,6 @@
   --button-text-color: #ffffff;
   --navigation-color: #212121;
 }
-
 .body {
   font-family: "Roboto", sans-serif;
 }
@@ -32,15 +31,18 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #e5e5e5;
+  background-color: #ffffff;
   /* margin: auto; */
 }
 .navigation {
   display: flex;
-  justify-content: flex-start;
+  justify-content: center;
   gap: 40px;
   list-style: none;
-  background-color: #e5e5e5;
+  background-color: #ffffff;
+  padding-top: 40.8px;
+  padding-bottom: 40.8px;
+  align-items: center;
 }
 .agency a {
   padding-left: 93px;
@@ -176,7 +178,7 @@
   letter-spacing: 0.02em;
   text-decoration: none;
   line-height: 1.14;
-  background-color: #e5e5e5;
+  background-color: #ffffff;
 }
 
 .about-list {
@@ -239,7 +241,7 @@
   /* padding-top: 94px;  */
   display: flex;
   /* flex-basis: calc((100% - 90px) / 4); */
-  background-color: var(--team-section-color);
+  background-color: #f5f4fa;
 }
 .team-text {
   display: flex;
@@ -358,14 +360,10 @@
   border-radius: 5px 5px;
   border-style: 5px;
 }
-.button-portfolio:hover {
-  background-color: blue;
-  color: blueviolet;
-}
 
 .button {
   text-align: center;
-  background-color: blue;
+  background-color: #2196f3;
   color: white;
   cursor: pointer;
   font-weight: 700;
@@ -387,8 +385,8 @@
   padding-bottom: 40.8px;
 }
 .button-portfolio:hover {
-  background-color: blue;
-  color: blueviolet;
+  background-color: #2196f3;
+  color: #ffffff;
 }
 .navigation-portfolio {
   display: flex;
@@ -407,16 +405,26 @@
   gap: 10px;
   margin: auto;
   list-style: none;
+}
+.mail {
   color: #757575;
 }
+.number {
+  color: #757575;
+}
+.links-portfolio {
+  color: #2196f3;
+}
+
 .hero-portfolio {
   display: flex;
 }
 .hero-button-portfolio {
   display: flex;
-  justify-items: center;
-  justify-content: space-between;
+
   list-style-type: none;
+  border-radius: 0%;
+  color: #757575;
 }
 .images-portfolio {
   display: flexbox;
