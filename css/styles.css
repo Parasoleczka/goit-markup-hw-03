@@ -385,8 +385,8 @@
   padding-bottom: 40.8px;
 }
 .button-portfolio:hover {
-  background-color: #2196f3;
-  color: #ffffff;
+background-color: #2196f3; 
+color: #ffffff;
 }
 .navigation-portfolio {
   display: flex;
@@ -413,7 +413,7 @@
   color: #757575;
 }
 .links-portfolio {
-  color: #2196f3;
+  color: #2196f3; 
 }
 
 .hero-portfolio {
@@ -421,14 +421,25 @@
 }
 .hero-button-portfolio {
   display: flex;
+  justify-content: center;
 
   list-style-type: none;
-  border-radius: 0%;
-  color: #757575;
+}
+.button-portfolio {
+  box-shadow: 1px 1px 1px;
+  background: #F5F4FA;
+  display: flex;
+  justify-content: center;
+  margin-left: 5px;
+  justify-content: space-between;
+  align-items: baseline;
 }
 .images-portfolio {
-  display: flexbox;
+  display: flex;
   justify-content: flex-start;
   margin: auto;
   list-style-type: none;
+  display: inline;
+
 }
+
