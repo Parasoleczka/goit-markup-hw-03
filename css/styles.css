@@ -398,10 +398,10 @@ color: #ffffff;
 .secend-nav-portfolio {
   display: flex;
   justify-content: space-between;
+  justify-content: center;
   font-weight: 500;
   font-size: 14px;
   letter-spacing: 0.02em;
-  align-content: baseline;
   gap: 10px;
   margin: auto;
   list-style: none;
@@ -416,29 +416,30 @@ color: #ffffff;
   color: #2196f3; 
 }
 
-.hero-portfolio {
-  display: flex;
-}
 .hero-button-portfolio {
   display: flex;
   justify-content: center;
-
   list-style-type: none;
-}
-.button-portfolio {
   box-shadow: 1px 1px 1px;
-  background: #F5F4FA;
-  display: flex;
-  justify-content: center;
-  margin-left: 5px;
-  justify-content: space-between;
-  align-items: baseline;
-}
+  justify-content: space-around;
+  border-radius: 4px;
+  text-align: center;}
+ 
+   .button-portfolio-wszystkie:hover {
+    background-color: #2196f3;
+    color:#ffffff }
+
+
 .images-portfolio {
   display:flex;
    list-style-type: none;
    justify-content: flex-start;
    justify-content: space-between;
    margin: auto;
-   }
+   flex-wrap: wrap;
+   display: flex; 
+  margin-left: 30px;
+ padding-left: 0;
+flex-basis:calc((100%- 60px)/3); 
+}
  
