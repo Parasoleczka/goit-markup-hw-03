@@ -384,7 +384,7 @@
   padding-top: 40.8px;
   padding-bottom: 40.8px;
 }
-.button-portfolio:hover {
+.button-portfolio:hover {  
 background-color: #2196f3; 
 color: #ffffff;
 }
@@ -404,10 +404,12 @@ color: #ffffff;
   letter-spacing: 0.02em;
   gap: 10px;
   margin: auto;
-  list-style: none;
+   list-style: none;
+  text-decoration:none;
 }
 .mail {
   color: #757575;
+  margin-right: 50px;
 }
 .number {
   color: #757575;
