@@ -283,16 +283,14 @@
   font-family: "Raleway";
   font-weight: 800;
   font-size: 18px;
-  letter-spacing: 0.03em;
-  font-style: normal;
+   font-style: normal;
   text-decoration: none;
   line-height: 21px;
   letter-spacing: 0,54px;
-  text-transform: uppercase;
-  display: inline-flex;
-align-items: center;
-width: 115px;
+display: inline-flex;
 height: 24px;
+align-items: center;
+flex-shrink: 0;
  }
 
 .logo-web-footer {
