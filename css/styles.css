@@ -271,13 +271,11 @@
 
 .footer-container {
   background-color: var(--secondry-bacground-color);
-  font-family: Raleway;
-  font-size: 26px;
-  font-weight: 700;
-  letter-spacing: 0.03em;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  letter-spacing: 0.32px;
   color: var(--tittle-color);
-  text-decoration: none;
-  list-style: none;
   text-align: start;
 }
 .footer-logo {
@@ -294,17 +292,28 @@
 .logo-web-footer {
   text-decoration: none;
   font-family: Raleway;
-  font-style: Bold;
-  font-size: 26px;
+ font-style: normal;
+   font-size: 26px;
   line-height: 1.2;
   color: var(--blue-color);
   list-style-type: none;
 }
-.inline- footer {
-  text-decoration: none;
-}
+.text-footer {
+  max-width: 264px;
+  font-family: "Roboto";
+  font-size: 16px;
+  font-style: normal;
+  line-height: 24px;
+  letter-spacing: 0,32px;
+color:#F4F4FD;
+ }
 
-.footer-address {
+
+/* .inline- footer { */
+  text-decoration: none;
+/* } */
+
+/* .footer-address { */
   color: var(--main-color);
   font-family: Roboto;
   font-weight: 400;
@@ -314,12 +323,12 @@
   line-height: 1.7;
   list-style: none;
   font-style: normal;
-}
-.footer-address:hover {
+/* } */
+/* .footer-address:hover { */
   color: #2196f3;
-}
+/* } */
 
-.footer-mail {
+/* .footer-mail { */
   color: var(--footer-text-color);
   font-family: Roboto;
   font-weight: 400;
@@ -328,12 +337,12 @@
   text-decoration: none;
   line-height: 1.7;
   font-style: normal;
-}
-.footer-mail:hover {
+/* } */
+/* .footer-mail:hover { */
   color: var(--blue-color);
-}
+/* } */
 
-.footer-phone {
+/* .footer-phone { */
   color: var(--footer-text-color);
   font-family: Roboto;
   font-weight: 400;
@@ -346,7 +355,7 @@
 }
 .footer-phone:hover {
   color: #2196f3;
-}
+/* } */
 
 .button-portfolio {
   cursor: pointer;
@@ -459,3 +468,4 @@ line-height: 24px;
 letter-spacing: 0.32px;
 width: 264px;
 }
+
