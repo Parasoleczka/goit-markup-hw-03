@@ -271,32 +271,50 @@
 
 .footer-container {
   background-color: var(--secondry-bacground-color);
-  font-family: Roboto;
+  font-family: "Roboto";
   font-size: 16px;
   font-style: normal;
   letter-spacing: 0.32px;
   color: var(--tittle-color);
   text-align: start;
+  max-height: 1169px;
 }
 .footer-logo {
   color: var(--main-color);
-  font-family: Raleway;
-  font-weight: 700;
-  font-size: 26px;
+  font-family: "Raleway";
+  font-weight: 800;
+  font-size: 18px;
   letter-spacing: 0.03em;
   font-style: normal;
   text-decoration: none;
-  line-height: 1.19;
-}
+  line-height: 21px;
+  letter-spacing: 0,54px;
+  text-transform: uppercase;
+  display: inline-flex;
+align-items: center;
+width: 115px;
+height: 24px;
+ }
 
 .logo-web-footer {
+  display: flex;
   text-decoration: none;
-  font-family: Raleway;
+  font-family: "Raleway";
  font-style: normal;
    font-size: 26px;
   line-height: 1.2;
   color: var(--blue-color);
   list-style-type: none;
+  width: 44px;
+  height: 21px;
+
+.logo-studio-footer {
+  display: flex;
+  flex-direction: column;
+justify-content: center;
+  width: 71px;
+  height: 21px;
+}
 }
 .text-footer {
   max-width: 264px;
