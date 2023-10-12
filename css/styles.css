@@ -25,7 +25,6 @@
   width: 1158px;
   margin: 0 auto;
   padding: 0 15px;
-  background-color: var(--tittle-color);
 }
 
 .header-container {
@@ -44,7 +43,7 @@
   padding-top: 40.8px;
   padding-bottom: 40.8px;
   align-items: center;
-}
+} 
 .agency a {
   padding-left: 93px;
   list-style-type: none;
@@ -73,10 +72,14 @@
   letter-spacing: 0.02em;
   line-height: 1.5;
 }
-.adress-link {
+.address-link {
   margin-left: auto;
   letter-spacing: 0.02em;
   line-height: 1.5;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  text-align: center;
 }
 .mail a {
   font-family: Roboto;
@@ -89,13 +92,9 @@
   line-height: 1.14;
   list-style: none;
   display: flex;
-  margin-right: 50px;
+  margin-right: 50px;}
 
-  .mail a:hover {
-    color: var(--blue-color);
-  }
-}
-
+ 
 .webstudio-style {
   display: flex;
   justify-content: flex-start;
@@ -119,11 +118,24 @@
   text-decoration: none;
   text-transform: uppercase;
 }
-
+.list {
+  gap: 24px;
+}
+.paragraph {
+  color: var(--gray-text-color);
+    letter-spacing: 0.02em;
+    line-height: 1.5;
+}
+.second-heading {
+  font-size: 36px;
+  color: #2E2F42;
+  display: flex;
+  justify-content: center;
+ 
+}
 .hero {
   background: var(--secondry-bacground-color);
-  max-width: 1600px;
-  margin: 0 auto;
+   margin: 0 auto;
   height: 600px;
   padding: 188px 0;
 }
@@ -131,8 +143,8 @@
   font-size: 56px;
   color: #ffffff;
   margin: 0 auto 48px auto;
-  display: flexbox;
-  text-align: center;
+  display: flex;
+    justify-content: center;
   line-height: 1.07;
   letter-spacing: 0.06em;
 }
@@ -153,18 +165,6 @@
   margin: auto;
 }
 
-.about-container {
-  color: var(--navigation-color);
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 14px;
-  letter-spacing: 0.02em;
-  text-decoration: none;
-  line-height: 1.14;
-  background-color: #ffffff;
-}
-
 .about-list {
   display: flex;
   justify-content: space-between;
@@ -182,35 +182,9 @@
   margin-right: 215;
   margin-left: 215;
   list-style-type: none;
-}
-.about-text {
-  color: #757575;
-  font-family: Roboto;
-  font-weight: 400;
-  font-size: 14px;
-  letter-spacing: 0.03em;
-  font-style: normal;
-  line-height: 1.7;
-  display: inline;
-  padding-left: 30;
-  justify-content: center;
-}
-.about-text-items {
-  padding-right: 30px;
+  font-size: 20px;
 }
 
-.our-job-container {
-  display: block;
-  justify-content: flex-start;
-  align-items: flex-start;
-  padding-top: 94px;
-  padding-bottom: 94px;
-}
-.our-job-header {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
 .our-job-list {
   display: flex;
   justify-content: space-around;
@@ -221,10 +195,10 @@
 .team-container {
   max-width: 1200px;
   margin: auto;
-  /* padding-bottom: 94px;  */
-  /* padding-top: 94px;  */
+ padding-bottom: 94px;  
+padding-top: 94px;
   display: flex;
-  /* flex-basis: calc((100% - 90px) / 4); */
+
   background-color: #f5f4fa;
 }
 .team-text {
