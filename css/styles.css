@@ -205,6 +205,12 @@ text-transform: capitalize;
 padding-top: 94px;
   display: flex;
   background-color: #f5f4fa;
+  margin-top: 120px;
+  padding-bottom: 0px;
+  padding-left: 156px;
+  padding-right: 156px;
+justify-content: center;
+gap: 32px;
 }
 .team-text {
   display: flex;
@@ -217,11 +223,14 @@ padding-top: 94px;
   justify-content: center;
   list-style-type: none;
   margin: 30px;
-}
+ }
 .team-list-item {
   width: 270px;
   height: 368px;
   margin: auto;
+  border-radius:0px 2px 1px 0px;
+background: var(--WHITE, #FFF);
+box-shadow: 0px 2px 1px 0px 
 }
 .team-list-head {
   display: flex;
