@@ -397,7 +397,7 @@ display: flex;
 .button-portfolio-all :hover {
   color: #2196f3;
 }
-.images-portfolio {
+.hero-portfolio {
   display: flex;
   list-style-type: none;
   justify-content: flex-start;
