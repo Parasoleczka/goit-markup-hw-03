@@ -73,7 +73,7 @@
   margin-left: auto;
   letter-spacing: 0.02em;
   line-height: 1.5;
-  list-style: none;
+  list-style-type: none;
   display: flex;
   justify-content: flex-end;
   text-align: center;
@@ -397,16 +397,14 @@ display: flex;
 .button-portfolio-all :hover {
   color: #2196f3;
 }
-.hero-portfolio {
+.images-portfolio {
   display: flex;
-  list-style-type: none;
+   list-style-type: none;
   justify-content: flex-start;
   justify-content: space-between;
   margin: auto;
   flex-wrap: wrap;
-  display: flex;
-  flex-basis: calc((100%- 60px) / 3);
-}
+  }
 .text {
   letter-spacing: 0.03em;
   font-style: normal;
