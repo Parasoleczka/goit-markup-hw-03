@@ -32,6 +32,7 @@
   justify-content: space-between;
   align-items: center;
   background-color: #ffffff;
+ list-style-type: none;
   /* margin: auto; */
 }
 .navigation {
@@ -267,6 +268,9 @@ display: flex;
   height: 24px;
   align-items: center;
   flex-shrink: 0;
+  margin-left: 156px;
+  padding-bottom: 17.5px;
+  padding-top: 101.5px;
 }
 
 .logo-web-footer {
@@ -292,6 +296,9 @@ display: flex;
   line-height: 24px;
   letter-spacing: 0, 32px;
   color: #f4f4fd;
+  margin-left: 156px;
+ 
+
 }
 
 .button-portfolio {
