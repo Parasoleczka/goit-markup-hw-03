@@ -24,8 +24,7 @@
 .container {
   max-width: 1158px;
   margin: 0 auto;
-  padding: 0 15px;
-}
+ }
 
 .header-container {
   display: flex;
@@ -255,6 +254,7 @@ display: flex;
   color: var(--tittle-color);
   text-align: start;
   max-height: 1169px;
+  margin-top: 120px;
 }
 .footer-logo {
   color: var(--main-color);
@@ -417,6 +417,10 @@ display: flex;
   padding: 0;
   align-content:flex-start;
   width: calc((100%-48px)/3);
+}
+.items {
+  border: 1px solid var(--CORNFLOWER, #E7E9FC);
+  border-top: none;
 }
 
 .text {
