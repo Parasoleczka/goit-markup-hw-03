@@ -24,6 +24,7 @@
 .container {
   max-width: 1158px;
   margin: 0 auto;
+  padding: 0 15px;
 }
 
 .header-container {
@@ -35,61 +36,49 @@
   /* margin: auto; */
 }
 .navigation {
-  display: flex;
-  justify-content: center;
+  display: inline-flex;
+  align-items: flex-start;
   gap: 40px;
   list-style: none;
   background-color: #ffffff;
-  padding-top: 40.8px;
-  padding-bottom: 40.8px;
-  align-items: center;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 .agency a {
-  padding-left: 93px;
-  list-style-type: none;
+    list-style-type: none;
   color: var#2E2F42;
   text-decoration: none;
 }
 .portfolio a {
-  padding-left: 46px;
-  list-style: none;
+   list-style: none;
   text-decoration: none;
   color: #2e2f42;
 }
 .contact a {
-  padding-left: 46px;
-  list-style-type: none;
+    list-style-type: none;
   text-decoration: none;
   color: #2e2f42;
 }
 
 .nav-link {
-  display: flex;
+    display: inline-flex;
+align-items: flex-start;
   font-weight: 500;
   letter-spacing: 0.02em;
   line-height: 1.5;
-}
+  gap:40px;
+  }
 .address-link {
-  margin-left: auto;
-  letter-spacing: 0.02em;
-  line-height: 1.5;
-  list-style-type: none;
   display: flex;
-  justify-content: flex-end;
-  text-align: center;
+  justify-content: space-between;
+  justify-content: center;
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: 0.02em;
+  margin: auto;
+  list-style: none;
+  text-decoration: none;
 }
-/* .mail a { */
-font-family: Roboto;
-font-weight: 400;
-color: #434455;
-line-height: 1.15;
-text-decoration: none;
-font-size: 14px;
-letter-spacing: 0.02em;
-line-height: 1.14;
-list-style: none;
-display: flex;
-/* margin-right: 50px;} */
 
 .webstudio-style {
   display: flex;
@@ -107,16 +96,16 @@ display: flex;
 }
 .logo-web {
   font-family: Raleway;
-  font-style: Bold;
-  font-size: 18px;
+    font-size: 18px;
   line-height: 1.2;
   color: black;
   text-decoration: none;
   text-transform: uppercase;
+  padding-left: 130px;
+  padding-right: 76px;
 }
 .list {
-  gap: 24px;
-  width: calc((100%-48%px) / 3);
+list-style: none;
 }
 .paragraph {
   color: var(--gray-text-color);
@@ -380,7 +369,8 @@ display: flex;
   text-align: center;
   justify-content: center;
   align-items: center;
-  margin: 72px 96px;
+  margin-bottom: 72px;
+  margin-top: 96px;
 }
 
 .button-portfolio {
@@ -412,10 +402,10 @@ display: flex;
   list-style-type: none;
   display: flex;
   flex-wrap: wrap;
-  gap: 24px;
+  gap: 48px 24px;
   padding: 0;
   align-content: flex-start;
-  width: calc((100%-48px) / 3);
+  
 }
 .items {
   border: 1px solid var(--CORNFLOWER, #e7e9fc);
