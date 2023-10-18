@@ -67,17 +67,21 @@ align-items: flex-start;
   letter-spacing: 0.02em;
   line-height: 1.5;
   gap:40px;
+  text-decoration: none;
+  color:#2e2f42
   }
+
 .address-link {
   display: flex;
-  justify-content: space-between;
-  justify-content: center;
-  font-weight: 500;
-  font-size: 14px;
+    font-weight: 500;
+  font-size: 16px;
   letter-spacing: 0.02em;
   margin: auto;
-  list-style: none;
-  text-decoration: none;
+  margin-left: 32px;
+    text-decoration: none;
+gap: 40px;
+    align-items: center;
+    justify-content: flex-start;
 }
 
 .webstudio-style {
@@ -103,6 +107,7 @@ align-items: flex-start;
   text-transform: uppercase;
   padding-left: 130px;
   padding-right: 76px;
+ 
 }
 .list {
 list-style: none;
@@ -157,20 +162,20 @@ list-style: none;
   display: flex;
   justify-content: space-between;
   justify-content: flex-start;
-  margin-right: 215;
-  margin-left: 215;
+ margin: 0 auto;
   list-style-type: none;
   padding-bottom: 94px;
   padding-top: 94px;
+  gap: 24px;
 }
 
 .about-h3 {
-  display: flex;
-  justify-content: flex-start;
-  margin-right: 215;
-  margin-left: 215;
-  list-style-type: none;
-  font-size: 20px;
+   display: flex;
+width: 264px;
+height: 24px;
+flex-direction: column;
+align-items: flex-start;
+gap: 8px;
 }
 
 .our-job-list {
@@ -192,26 +197,28 @@ list-style: none;
   margin: 0 auto;
   padding-bottom: 94px;
   padding-top: 94px;
-  display: flex;
-  background-color: #f5f4fa;
+   background-color: #f5f4fa;
   margin-top: 120px;
-  padding-bottom: 120px;
-  justify-content: center;
-  gap: 32px;
-  padding-left: 0;
-  flex-basis: calc((100%-72px) / 4);
-}
+ }
 .team-text {
-  display: flex;
+  /* display: flex;
   justify-content: center;
   align-items: center;
+  display: inline-flex; */
+padding-bottom: 0px;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: 32px;
 }
 
 .team-list {
   display: flex;
   justify-content: center;
   list-style-type: none;
-  margin: 30px;
+  margin: 0 auto;
+  gap: 32px;
+  
 }
 .team-list-item {
   width: 270px;
@@ -244,8 +251,7 @@ list-style: none;
   color: var(--tittle-color);
   text-align: start;
   max-height: 1169px;
-  margin-top: 120px;
-}
+ }
 .footer-logo {
   color: var(--main-color);
   font-family: "Raleway";
@@ -320,23 +326,23 @@ list-style: none;
   margin-left: 215px;
 }
 .nav-header-portfolio {
-  border-bottom-style: solid #d9d9d9;
   display: flex;
-  justify-content: center;
+    align-items: center;
   /* padding-top: 40.8px;
   padding-bottom: 40.8px; */
   border-bottom: 1px solid var(--CORNFLOWER, #e7e9fc);
   background: var(--WHITE, #fff);
   width: 1440px;
   height: 72px;
-}
+  }
 
-.navigation-portfolio {
+ .navigation-portfolio {
   display: flex;
   justify-content: flex-start;
   gap: 40px;
   list-style: none;
   align-items: center;
+   
 }
 .secend-nav-portfolio {
   display: flex;
