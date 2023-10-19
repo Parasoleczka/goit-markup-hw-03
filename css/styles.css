@@ -272,16 +272,14 @@ display: inline-block;
 }
 .text-footer {
   max-width: 264px;
-  font-family: "Roboto";
-  font-size: 18px;
-  font-style: normal;
-  line-height: 24px;
-  letter-spacing: 0.32px;
+      line-height: 1.5;
+  letter-spacing: 0.02em;
   color: #f4f4fd;
  }
-
-
-
+ .hero-portfolio {
+  padding-top: 96px;
+  padding-bottom: 120px;
+ }
 .button-portfolio {
   cursor: pointer;
   background-color: white;
@@ -353,7 +351,7 @@ display: inline-block;
 }
 
 .hero-button-portfolio {
-  display: flex;
+  /* display: flex;
   list-style-type: none;
   justify-content: space-around;
   justify-content: center;
@@ -362,7 +360,11 @@ display: inline-block;
   justify-content: center;
   align-items: center;
   margin-bottom: 72px;
-  margin-top: 96px;
+  margin-top: 96px; */
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  margin-bottom: 72px;
 }
 
 .button-portfolio {
@@ -390,15 +392,16 @@ display: inline-block;
 .button-portfolio-all :hover {
   color: #2196f3;
 }
-.images-portfolio {
+ .images-portfolio {
   list-style-type: none;
   display: flex;
   flex-wrap: wrap;
-  gap: 48px 24px;
+  gap: 24px;
   padding: 0;
   align-content: flex-start;
+row-gap: 48px; }
   
-}
+
 .items {
   border: 1px solid var(--CORNFLOWER, #e7e9fc);
   border-top: none;
