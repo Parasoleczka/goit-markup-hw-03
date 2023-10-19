@@ -14,7 +14,7 @@
   --navigation-color: #212121;
   --var-color: #e7e9fc;
 }
-.body {
+body {
   font-family: "Roboto", sans-serif;
 }
 * {
@@ -29,12 +29,9 @@
 
 .header-container {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
-  background-color: #ffffff;
-  list-style-type: none;
-  /* margin: auto; */
-}
+    align-items: center;
+  border-bottom: 1px solid #e7e9fc;
+ }
 .navigation {
   display: inline-flex;
   align-items: flex-start;
@@ -63,22 +60,22 @@
 .nav-link {
     display: inline-flex;
 align-items: flex-start;
-  font-weight: 500;
   letter-spacing: 0.02em;
   line-height: 1.5;
   gap:40px;
   text-decoration: none;
   color:#2e2f42
   }
-
+.address {
+  font-style: normal;
+  margin-left: auto;
+}
 .address-link {
   display: flex;
-    font-weight: 500;
-  font-size: 16px;
+   font-size: 16px;
+   font-weight: 400;
   letter-spacing: 0.02em;
-  margin: auto;
-  margin-left: 32px;
-    text-decoration: none;
+   text-decoration: none;
 gap: 40px;
     align-items: center;
     justify-content: flex-start;
@@ -105,9 +102,7 @@ gap: 40px;
   color: black;
   text-decoration: none;
   text-transform: uppercase;
-  padding-left: 130px;
-  padding-right: 76px;
- 
+  margin-right: 76px;
 }
 .list {
 list-style: none;
@@ -122,7 +117,7 @@ list-style: none;
   color: #2e2f42;
   display: flex;
   justify-content: center;
-  padding-bottom: 72px;
+  margin-bottom: 72px;
 }
 .hero {
   background: var(--secondry-bacground-color);
@@ -135,8 +130,7 @@ list-style: none;
   font-weight: 700;
   color: #ffffff;
   margin: 0 auto 48px auto;
-  display: flex;
-  justify-content: center;
+    justify-content: center;
   text-align: center;
   line-height: 1.07;
   letter-spacing: 0.02em;
@@ -183,6 +177,7 @@ gap: 8px;
   justify-content: space-around;
   list-style-type: none;
   flex-basis: calc((100% - 60px) / 3);
+  padding-bottom: 120px;
 }
 .second-heading {
   font-size: 36px;
@@ -193,12 +188,10 @@ gap: 8px;
   text-transform: capitalize;
 }
 .team-container {
-  max-width: 1128px;
-  margin: 0 auto;
-  padding-bottom: 94px;
-  padding-top: 94px;
+    padding-bottom: 120px;
+  padding-top: 120px;
    background-color: #f5f4fa;
-  margin-top: 120px;
+ 
  }
 .team-text {
   /* display: flex;
@@ -217,69 +210,61 @@ gap: 32px;
   justify-content: center;
   list-style-type: none;
   margin: 0 auto;
-  gap: 32px;
+  gap: 24px;
   
 }
 .team-list-item {
   width: 270px;
-  height: 368px;
-  margin: auto;
-  border-radius: 0px 2px 1px 0px;
   background: var(--WHITE, #fff);
-  border-left-color: #757575;
   border-color: #757575;
   border-radius: 0px 0px 4px 4px;
   box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
     0px 1px 1px 0px rgba(46, 47, 66, 0.16),
     0px 1px 6px 0px rgba(46, 47, 66, 0.08);
 }
-.team-list-head {
-  display: flex;
-  justify-content: center;
+.team-img {
+text-align: center;
+padding: 32px 0;
+
 }
-.team-list-position {
-  display: flex;
-  justify-content: center;
+.img-class {
+  display: block;
 }
+  .paragraph {
+    padding-top: 8px;
+  }
 
 .footer-container {
   background-color: var(--secondry-bacground-color);
-  font-family: "Roboto";
-  font-size: 16px;
-  font-style: normal;
-  letter-spacing: 0.32px;
   color: var(--tittle-color);
-  text-align: start;
-  max-height: 1169px;
+padding-bottom: 100px;
+padding-top: 100px;
  }
 .footer-logo {
   color: var(--main-color);
-  font-family: "Raleway";
+  font-family: "Raleway", sans-serif;
   font-weight: 800;
-  font-size: 18px;
   font-style: normal;
   text-decoration: none;
-  line-height: 21px;
-  letter-spacing: 0, 54px;
-  display: inline-flex;
-  height: 24px;
   align-items: center;
-  flex-shrink: 0;
-  margin-left: 156px;
-  padding-bottom: 17.5px;
-  padding-top: 101.5px;
+padding-bottom: 17.5px;
+font-size: 18px;
+line-height: 1.17;
+letter-spacing: 0.03em;
+font-style: normal;
+margin-right: 76px;
+display: inline-block;
 }
 
 .logo-web-footer {
-  display: flex;
   text-decoration: none;
   font-family: "Raleway";
   line-height: 1.2;
   color: var(--blue-color);
+ 
 }
 
 .logo-studio-footer {
-  display: flex;
   flex-direction: column;
   justify-content: center;
   width: 71px;
@@ -288,13 +273,14 @@ gap: 32px;
 .text-footer {
   max-width: 264px;
   font-family: "Roboto";
-  font-size: 16px;
+  font-size: 18px;
   font-style: normal;
   line-height: 24px;
-  letter-spacing: 0, 32px;
+  letter-spacing: 0.32px;
   color: #f4f4fd;
-  margin-left: 156px;
-}
+ }
+
+
 
 .button-portfolio {
   cursor: pointer;
