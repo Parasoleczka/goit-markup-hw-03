@@ -56,33 +56,39 @@ body {
   color: #2e2f42;
 }
 
-.nav-link {
-    display: inline-flex;
-   align-items: flex-start;
+.menu {
+    display: flex;
+   align-items: center;
   letter-spacing: 0.02em;
   line-height: 1.5;
   gap:40px;
   text-decoration: none;
   color:#2e2f42
   }
+  .nav-link {
+    padding: 24px 0;
+  }
 .address {
   font-style: normal;
   margin-left: auto;
   display: flex;
   align-items: center;
+   justify-content: flex-start;
+  list-style: none;
+  color: #434455;
+  gap: 40px;
+  font-size: 16px;
+  font-weight: 400;
+ letter-spacing: 0.02em;
+  text-decoration: none;
  }
-.address-link {
-  display: flex;
-   font-size: 16px;
-   font-weight: 400;
-  letter-spacing: 0.02em;
-   text-decoration: none;
-   gap: 40px;
-    align-items: center;
-    justify-content: flex-start;
-    list-style: none;
-    color: #434455;
+/* .address-mail {
+  margin-right: 40px;
 }
+
+.address-number {
+  margin-right: 0;
+} */
 
 .webstudio-style {  
   display: flex;
@@ -98,6 +104,7 @@ body {
   color: var(--blue-color);
   list-style-type: none;
 }
+
 .logo-web {
   font-family: Raleway;
     font-size: 18px;
@@ -109,6 +116,7 @@ body {
 }
 .list {
 list-style: none;
+text-decoration: none;
 }
 .paragraph {
   color: var(--gray-text-color);
@@ -165,14 +173,16 @@ list-style: none;
   padding-top: 94px;
   gap: 24px;
 }
-
+.about-text-items {
+  width: calc((100% - 72px) / 4); 
+}
 .about-h3 {
    display: flex;
 width: 264px;
 height: 24px;
 flex-direction: column;
 align-items: flex-start;
-gap: 8px;
+margin-bottom: 8px;
 }
 
 .our-job-list {
@@ -283,8 +293,8 @@ display: inline-block;
   letter-spacing: 0.02em;
   color: #f4f4fd;
  }
- .hero-portfolio {
-  padding-bottom: 120px;
+ .about-us {
+  padding-bottom: 120px 0;
  }
 .button-portfolio {
   cursor: pointer;
@@ -308,8 +318,11 @@ display: inline-block;
   font-size: 16px;
   letter-spacing: 0.06em;
   line-height: 1.88;
-  border-radius: 5px 5px;
+  border-radius: 4px;
   border-style: 5px;
+  display: block;
+  min-width: 169px;
+  min-height: 56px;
 }
 .logo-web-header-portfolio {
   color: var(--blue-color);
