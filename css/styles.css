@@ -165,9 +165,7 @@ body {
   padding: 16px 32px;
   margin: auto;
 }
-.graf-us {
-  padding: 120px 0;
-}
+
 .about-list {
   display: flex;
   justify-content: space-between;
