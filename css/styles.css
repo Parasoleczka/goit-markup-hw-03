@@ -254,9 +254,7 @@ img {
   max-width: 100%;
   height: auto;
 }
-/* .img-class {
-  display: block;
-} */
+
 .paragraph {
   padding-top: 8px;
   color: var(--gray-text-color);
@@ -466,11 +464,11 @@ color: #2196f3;
   flex-wrap: wrap;
   column-gap: 24px;
   row-gap: 48px;
-}
-.images-portfolio {
-  width: calc((100% - 48px) / 3);
-}
 
+}
+.img-class {
+  width: calc((100% - 48px)/3);
+}
 .items {
   border: 1px solid var(--CORNFLOWER, #e7e9fc);
   border-top: none;
