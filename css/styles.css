@@ -35,17 +35,17 @@ body {
   align-items: flex-start;
   gap: 40px;
   list-style: none;
-    padding-top: 24px;
+  padding-top: 24px;
   padding-bottom: 24px;
 }
 .agency a {
-    color: var#2E2F42;
+  color: var#2E2F42;
   text-decoration: none;
   display: flex;
   align-items: flex-start;
   gap: 40px;
   list-style: none;
-    padding:24px 0;
+  padding: 24px 0;
 }
 .portfolio a {
   list-style: none;
@@ -54,16 +54,16 @@ body {
   display: flex;
   align-items: flex-start;
   gap: 40px;
-    padding: 24px 0;
+  padding: 24px 0;
 }
 .contact a {
-   text-decoration: none;
+  text-decoration: none;
   color: #2e2f42;
   display: flex;
   align-items: flex-start;
   gap: 40px;
   list-style: none;
-    padding: 24px 0;
+  padding: 24px 0;
 }
 
 .menu {
@@ -81,10 +81,10 @@ body {
   font-style: normal;
   margin-left: auto;
   align-items: center;
-    list-style: none;
+  list-style: none;
   color: #434455;
-   letter-spacing: 0.02em;
- 
+  letter-spacing: 0.02em;
+  gap: 40px;
 }
 .address-mail {
   margin-right: 40px;
@@ -166,7 +166,6 @@ body {
 }
 .about-us {
   padding: 120px 0;
-  
 }
 .about-list {
   display: flex;
@@ -200,7 +199,6 @@ body {
   justify-content: space-around;
   list-style-type: none;
   flex-basis: calc((100% - 48px) / 3);
- 
 }
 .second-heading {
   font-size: 36px;
@@ -215,7 +213,6 @@ body {
   padding-top: 120px;
   background-color: #f5f4fa;
 }
-
 
 .team-text {
   /* display: flex;
@@ -308,7 +305,7 @@ img {
   padding-bottom: 120px 0;
 }
 
- .button { 
+.button {
   text-align: center;
   background-color: #2196f3;
   color: white;
@@ -374,30 +371,26 @@ img {
   padding: 24px 0;
 }
 .section-portfolio {
- padding: 96px 0 120px 0;
-  gap: 24px;
+  padding: 96px 0 120px 0;
+ 
 }
 .hero-button-portfolio {
-   display: flex;
+  display: flex;
   justify-content: center;
   gap: 24px;
   margin-bottom: 72px;
-  color: #4D5AE5
 }
 .hero-button-portfolio :focus {
-  border: 1px solid transparent; 
+  border: 1px solid transparent;
 }
 
 .button-portfolio {
   display: flex;
   justify-content: center;
-   border-radius: 4px;
-  border: 1px solid var(--CORNFLOWER, #e7e9fc);
-  background: var(--CLOUD, #f4f4fd);
+  border-radius: 4px;
   margin-left: 24px;
   list-style: none;
-  color: #4D5AE5;
-}
+  }
 .button-portfolio:focus {
   border: 1px solid transparent;
 }
@@ -409,7 +402,6 @@ img {
   box-shadow: 0px 2px 2px 0px;
   cursor: pointer;
   border: 1px solid #e7e9fc;
-  
 }
 
 .button-portfolio-all :hover {
@@ -418,56 +410,53 @@ img {
 }
 
 .button-portfolio-Website {
-  color: #ffffff;
-  padding: 12px 24px;
+ padding: 12px 24px;
   border-radius: 4px;
-  box-shadow: 0px 2px 2px 0px;
   cursor: pointer;
   border: 1px solid #e7e9fc;
+  color: #4D5AE5;
 }
-.button-portfolio-Website :hover{
-color: #2196f3;
-  border: 1px solid transparent}
-  
-  .button-portfolio-App {
-    color: #ffffff;
-    padding: 12px 24px;
-    border-radius: 4px;
-    box-shadow: 0px 2px 2px 0px;
-    cursor: pointer;
-    border: 1px solid #e7e9fc;  
-  }
-.button-portfolio-App :hover{
-    border: 1px solid transparent}
+.button-portfolio-Website :hover {
+  border: 1px solid transparent;
+}
+
+.button-portfolio-App {
+  color: #4d5ae5;
+  padding: 12px 24px;
+  border-radius: 4px;
+  cursor: pointer;
+  border: 1px solid #e7e9fc;
+  border: 1px solid var(--CORNFLOWER, #e7e9fc);
+}
+.button-portfolio-App :hover {
+  border: 1px solid transparent;
+}
 
 .button-portfolio-Design {
- color: #ffffff;
-    padding: 12px 24px;
-    border-radius: 4px;
-    box-shadow: 0px 2px 2px 0px;
+   padding: 12px 24px;
+  border-radius: 4px;
     cursor: pointer;
-    border: 1px solid #e7e9fc; 
-    }
-    .button-portfolio-Design {
-      border: 1px solid transparent; 
-    }
-    .button-portfolio-Marketing {
-      color: #ffffff;
-      padding: 12px 24px;
-      border-radius: 4px;
-      box-shadow: 0px 2px 2px 0px;
-      cursor: pointer;
-      border: 1px solid #e7e9fc; 
-    }
+  border: 1px solid #e7e9fc;
+  color: #4D5AE5;
+}
+.button-portfolio-Design {
+  border: 1px solid transparent;
+}
+.button-portfolio-Marketing {
+   padding: 12px 24px;
+  border-radius: 4px;
+  cursor: pointer;
+  border: 1px solid #e7e9fc;
+  color: #4D5AE5;
+}
 .hero-portfolio {
   display: flex;
   flex-wrap: wrap;
   column-gap: 24px;
   row-gap: 48px;
-
 }
 .img-class {
-  width: calc((100% - 48px)/3);
+  width: calc((100% - 48px) / 3);
 }
 .items {
   border: 1px solid var(--CORNFLOWER, #e7e9fc);
