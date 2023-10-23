@@ -187,12 +187,13 @@ body {
 }
 .our-job {
   display: flex;
+  gap: 24px;
 }
 .our-job-list {
   justify-content: space-around;
   list-style-type: none;
   flex-basis: calc((100% - 48px) / 3);
-  gap: 24px;
+ 
 }
 .second-heading {
   font-size: 36px;
