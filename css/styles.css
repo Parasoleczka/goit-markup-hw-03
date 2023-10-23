@@ -29,14 +29,15 @@ body {
 .header {
   border-bottom: 1px solid #e7e9fc;
 }
-
+.header-wrap {
+  display: flex;
+  align-items: center;
+}
 .navigation {
   display: flex;
   align-items: flex-start;
   gap: 40px;
   list-style: none;
-  padding-top: 24px;
-  padding-bottom: 24px;
 }
 .agency a {
   color: var#2E2F42;
@@ -71,9 +72,9 @@ body {
   align-items: center;
   letter-spacing: 0.02em;
   line-height: 1.5;
-  gap: 40px;
-  text-decoration: none;
+    text-decoration: none;
   color: #2e2f42;
+  margin-right: auto;
 }
 
 .address {
