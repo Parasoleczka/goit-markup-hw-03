@@ -31,28 +31,42 @@ body {
 }
 
 .navigation {
-  display: inline-flex;
+  display: flex;
   align-items: flex-start;
   gap: 40px;
   list-style: none;
-  background-color: #ffffff;
-  padding-top: 24px;
+    padding-top: 24px;
   padding-bottom: 24px;
 }
 .agency a {
-  list-style-type: none;
-  color: var#2E2F42;
+    color: var#2E2F42;
   text-decoration: none;
+  display: flex;
+  align-items: flex-start;
+  gap: 40px;
+  list-style: none;
+    padding-top: 24px;
+  padding-bottom: 24px;
 }
 .portfolio a {
   list-style: none;
   text-decoration: none;
   color: #2e2f42;
+  display: flex;
+  align-items: flex-start;
+  gap: 40px;
+    padding-top: 24px;
+  padding-bottom: 24px;
 }
 .contact a {
-  list-style-type: none;
-  text-decoration: none;
+   text-decoration: none;
   color: #2e2f42;
+  display: flex;
+  align-items: flex-start;
+  gap: 40px;
+  list-style: none;
+    padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .menu {
@@ -60,8 +74,7 @@ body {
   align-items: center;
   letter-spacing: 0.02em;
   line-height: 1.5;
-  gap: 40px;
-  text-decoration: none;
+   text-decoration: none;
   color: #2e2f42;
 }
 .nav-link {
@@ -72,16 +85,14 @@ body {
   font-style: normal;
   margin-left: auto;
   align-items: center;
-  justify-content: flex-start;
-  list-style: none;
+    list-style: none;
   color: #434455;
-  font-size: 16px;
-  font-weight: 400;
-  letter-spacing: 0.02em;
-  text-decoration: none;
+   letter-spacing: 0.02em;
+ 
 }
 .address-mail {
   margin-right: 40px;
+  text-decoration: none;
 }
 
 .address-number {
