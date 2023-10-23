@@ -85,11 +85,11 @@ body {
   color: #434455;
   letter-spacing: 0.02em;
   gap: 40px;
+  text-decoration: none;
 }
 .address-mail {
   margin-right: 40px;
-  text-decoration: none;
-}
+ }
 
 .address-number {
   margin-right: 0;
@@ -322,13 +322,11 @@ img {
 }
 .logo-web-header-portfolio {
   color: var(--blue-color);
-  margin-left: 215px;
-}
+ }
 .nav-header-portfolio {
   display: flex;
   align-items: center;
-  /* padding-top: 40.8px;
-  padding-bottom: 40.8px; */
+justify-content: flex-start;
   background: var(--WHITE, #fff);
   width: 1440px;
   height: 72px;
@@ -339,6 +337,7 @@ img {
   gap: 40px;
   list-style: none;
   align-items: center;
+  margin-right: 332px;
 }
 .navigation-portfolio {
   display: flex;
@@ -372,7 +371,6 @@ img {
 }
 .section-portfolio {
   padding: 96px 0 120px 0;
- 
 }
 .hero-button-portfolio {
   display: flex;
@@ -380,44 +378,32 @@ img {
   gap: 24px;
   margin-bottom: 72px;
 }
+.hero-button-portfolio :hover {
+  background-color: #404bbf;
+  color: #e5e5e5;
+}
 .hero-button-portfolio :focus {
   border: 1px solid transparent;
 }
 
 .button-portfolio {
-  display: flex;
-  justify-content: center;
-  border-radius: 4px;
-  margin-left: 24px;
   list-style: none;
-  }
-.button-portfolio:focus {
-  border: 1px solid transparent;
-}
-.button-portfolio-all {
-  background-color: #404bbf;
-  color: #ffffff;
-  padding: 12px 24px;
-  border-radius: 4px;
-  box-shadow: 0px 2px 2px 0px;
-  cursor: pointer;
-  border: 1px solid #e7e9fc;
 }
 
-.button-portfolio-all :hover {
-  color: #2196f3;
-  border: 1px solid transparent;
+.button-portfolio-all {
+  color: #4d5ae5;
+  padding: 12px 24px;
+  border-radius: 4px;
+  cursor: pointer;
+  border: 1px solid #e7e9fc;
 }
 
 .button-portfolio-Website {
- padding: 12px 24px;
+  padding: 12px 24px;
   border-radius: 4px;
   cursor: pointer;
   border: 1px solid #e7e9fc;
-  color: #4D5AE5;
-}
-.button-portfolio-Website :hover {
-  border: 1px solid transparent;
+  color: #4d5ae5;
 }
 
 .button-portfolio-App {
@@ -428,32 +414,40 @@ img {
   border: 1px solid #e7e9fc;
   border: 1px solid var(--CORNFLOWER, #e7e9fc);
 }
-.button-portfolio-App :hover {
-  border: 1px solid transparent;
-}
 
 .button-portfolio-Design {
-   padding: 12px 24px;
-  border-radius: 4px;
-    cursor: pointer;
-  border: 1px solid #e7e9fc;
-  color: #4D5AE5;
-}
-.button-portfolio-Design {
-  border: 1px solid transparent;
-}
-.button-portfolio-Marketing {
-   padding: 12px 24px;
+  padding: 12px 24px;
   border-radius: 4px;
   cursor: pointer;
   border: 1px solid #e7e9fc;
-  color: #4D5AE5;
+  color: #4d5ae5;
 }
-.hero-portfolio {
+
+.button-portfolio-Marketing {
+  padding: 12px 24px;
+  border-radius: 4px;
+  cursor: pointer;
+  border: 1px solid #e7e9fc;
+  color: #4d5ae5;
+}
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.images-portfolio {
   display: flex;
   flex-wrap: wrap;
-  column-gap: 24px;
-  row-gap: 48px;
+  gap: 48px 24px;
+  list-style: none;
 }
 .img-class {
   width: calc((100% - 48px) / 3);
