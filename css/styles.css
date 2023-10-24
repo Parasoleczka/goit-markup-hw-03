@@ -398,7 +398,7 @@ img {
   padding: 12px 24px;
   border-radius: 4px;
   cursor: pointer;
-  border: 1px solid #e7e9fc;
+  border: 1px solid var(#e7e9fc);
   border: 1px solid transparent;
 }
 
@@ -406,7 +406,7 @@ img {
   padding: 12px 24px;
   border-radius: 4px;
   cursor: pointer;
-  border: 1px solid #e7e9fc;
+  border: 1px solid var(#e7e9fc);
   color: #4d5ae5;
   border: 1px solid transparent;
 }
@@ -416,15 +416,14 @@ img {
   padding: 12px 24px;
   border-radius: 4px;
   cursor: pointer;
-  border: 1px solid #e7e9fc;
-  border: 1px solid var(--CORNFLOWER, #e7e9fc);
+  border: 1px solid var(#e7e9fc);
 }
 
 .button-portfolio-Design {
   padding: 12px 24px;
   border-radius: 4px;
   cursor: pointer;
-  border: 1px solid #e7e9fc;
+  border: 1px solid var(#e7e9fc);
   color: #4d5ae5;
   border: 1px solid transparent;
 }
@@ -433,7 +432,7 @@ img {
   padding: 12px 24px;
   border-radius: 4px;
   cursor: pointer;
-  border: 1px solid #e7e9fc;
+  border: 1px solid var(#e7e9fc);
   color: #4d5ae5;
   border: 1px solid transparent;
 }
