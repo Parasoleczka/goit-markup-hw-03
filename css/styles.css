@@ -38,34 +38,10 @@ body {
   align-items: flex-start;
   gap: 40px;
   list-style: none;
+    padding: 24px 0;
+    color: #2e2f42;
 }
-.agency a {
-  color: var#2E2F42;
-  text-decoration: none;
-  display: flex;
-  align-items: flex-start;
-  gap: 40px;
-  list-style: none;
-  padding: 24px 0;
-}
-.portfolio a {
-  list-style: none;
-  text-decoration: none;
-  color: #2e2f42;
-  display: flex;
-  align-items: flex-start;
-  gap: 40px;
-  padding: 24px 0;
-}
-.contact a {
-  text-decoration: none;
-  color: #2e2f42;
-  display: flex;
-  align-items: flex-start;
-  gap: 40px;
-  list-style: none;
-  padding: 24px 0;
-}
+
 
 .menu {
   display: flex;
@@ -330,6 +306,7 @@ img {
   background: var(--WHITE, #fff);
   width: 1440px;
   height: 72px;
+  margin-right: auto;
 }
 .ul-portfolio {
   display: flex;
@@ -360,15 +337,34 @@ img {
 }
 
 .links-portfolio {
-  color: #2196f3;
-  padding: 24px 0;
-}
+       list-style: none;
+    text-decoration: none;
+    color: #2e2f42;
+    display: flex;
+    align-items: flex-start;
+    gap: 40px;
+       cursor: pointer;
+  }
+
 .links-studio {
-  padding: 24px 0;
+  color: #2e2f42;
+  text-decoration: none;
+  display: flex;
+  align-items: flex-start;
+  gap: 40px;
+  list-style: none;
 }
+
 .links-contacts {
+  text-decoration: none;
+  color: #2e2f42;
+  display: flex;
+  align-items: flex-start;
+  gap: 40px;
+  list-style: none;
   padding: 24px 0;
 }
+
 .section-portfolio {
   padding: 96px 0 120px 0;
 }
