@@ -386,7 +386,6 @@ img {
 .hero-button-portfolio :hover {
   background-color: #404bbf;
   color: #e5e5e5;
-  
 }
 
 .button-portfolio {
@@ -400,6 +399,7 @@ img {
   border-radius: 4px;
   cursor: pointer;
   border: 1px solid #e7e9fc;
+  border: 1px solid transparent;
 }
 
 .button-portfolio-Website {
@@ -408,6 +408,7 @@ img {
   cursor: pointer;
   border: 1px solid #e7e9fc;
   color: #4d5ae5;
+  border: 1px solid transparent;
 }
 
 .button-portfolio-App {
@@ -425,6 +426,7 @@ img {
   cursor: pointer;
   border: 1px solid #e7e9fc;
   color: #4d5ae5;
+  border: 1px solid transparent;
 }
 
 .button-portfolio-Marketing {
@@ -433,6 +435,7 @@ img {
   cursor: pointer;
   border: 1px solid #e7e9fc;
   color: #4d5ae5;
+  border: 1px solid transparent;
 }
 .visually-hidden {
   position: absolute;
