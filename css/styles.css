@@ -386,11 +386,12 @@ img {
 .hero-button-portfolio :hover {
   background-color: #404bbf;
   color: #e5e5e5;
-  border: 1px solid transparent;
+  
 }
 
 .button-portfolio {
   list-style: none;
+  border: 1px solid transparent;
 }
 
 .button-portfolio-all {
