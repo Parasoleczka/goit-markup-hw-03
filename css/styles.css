@@ -378,12 +378,12 @@ img {
   justify-content: center;
   gap: 24px;
   margin-bottom: 72px;
-  border: 1px solid transparent;
 }
 
 .hero-button-portfolio :hover {
   background-color: #404bbf;
   color: #e5e5e5;
+  border: 1px solid transparent;
 }
 
 .button-portfolio {
@@ -395,9 +395,9 @@ img {
   cursor: pointer;
   border: 1px solid #e7e9fc;
 }
-.button-portfolio :hover {
+.button-portfolio :focus {
   border: 1px solid transparent;
-  color: #e5e5e5;
+  color: #ffffff;
 }
 
 .visually-hidden {
@@ -426,6 +426,7 @@ img {
   border: 1px solid #e7e9fc;
   border-top: none;
   padding: 32px 16px;
+  margin-bottom: 8px;
 }
 
 .headline {
