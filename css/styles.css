@@ -228,7 +228,6 @@ img {
 }
 
 .paragraph {
-  color: var(--gray-text-color);
   letter-spacing: 0.02em;
   line-height: 1.5;
   margin-bottom: 8px;
@@ -238,6 +237,7 @@ img {
   font-weight: 500;
   line-height: 24px;
   letter-spacing: 0.4px;
+  color: var(--SLATE, #434455);
 }
 
 .footer-container {
@@ -428,6 +428,9 @@ img {
 }
 .headline {
   margin-bottom: 8px;
+  font-family: "Roboto";
+  font-size: 20px;
+  color: var(--NAVY-BLUE, #2e2f42);
 }
 .text {
   letter-spacing: 0.03em;
