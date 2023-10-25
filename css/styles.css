@@ -425,9 +425,9 @@ img {
   border: 1px solid #e7e9fc;
   border-top: none;
   padding: 32px 16px;
+  margin-bottom: 8px;
 }
-h3 {
-margin-bottom: 8px;}
+
 .headline {
   margin-bottom: 8px;
   font-family: "Roboto";
