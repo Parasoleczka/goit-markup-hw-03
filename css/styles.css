@@ -228,7 +228,7 @@ img {
 }
 
 .paragraph {
-    color: var(--gray-text-color);
+  color: var(--gray-text-color);
   letter-spacing: 0.02em;
   line-height: 1.5;
   margin-bottom: 8px;
@@ -388,53 +388,17 @@ img {
 .button-portfolio {
   list-style: none;
   border: 1px solid var(#e7e9fc);
-border: 1px solid transparent
-}
-.button-portfolio :hover{
-  border: 1px solid transparent 
-}
-.button-portfolio-all {
+  border: 1px solid transparent;
   color: #4d5ae5;
   padding: 12px 24px;
   border-radius: 4px;
   cursor: pointer;
-  border: 1px solid var(#e7e9fc);
-  }
-
-.button-portfolio-Website {
-  padding: 12px 24px;
-  border-radius: 4px;
-  cursor: pointer;
-  border: 1px solid var(#e7e9fc);
-  color: #4d5ae5;
-
+}
+.button-portfolio :hover {
+  border: 1px solid transparent;
+  color: #e5e5e5;
 }
 
-.button-portfolio-App {
-  color: #4d5ae5;
-  padding: 12px 24px;
-  border-radius: 4px;
-  cursor: pointer;
-   border: 1px solid var(#e7e9fc);
-}
-
-.button-portfolio-Design {
-  padding: 12px 24px;
-  border-radius: 4px;
-  cursor: pointer;
-  border: 1px solid var(#e7e9fc);
-  color: #4d5ae5;
-
-}
-
-.button-portfolio-Marketing {
-  padding: 12px 24px;
-  border-radius: 4px;
-  cursor: pointer;
-  border: 1px solid var(#e7e9fc);
-  color: #4d5ae5;
-
-}
 .visually-hidden {
   position: absolute;
   width: 1px;
