@@ -378,6 +378,7 @@ img {
   justify-content: center;
   gap: 24px;
   margin-bottom: 72px;
+  border: 1px solid transparent;
 }
 
 .hero-button-portfolio :hover {
@@ -387,12 +388,12 @@ img {
 
 .button-portfolio {
   list-style: none;
-  border: 1px solid var(#e7e9fc);
-   border: 1px solid transparent; 
+  border: 1px solid transparent;
   color: #4d5ae5;
   padding: 12px 24px;
   border-radius: 4px;
   cursor: pointer;
+  border: 1px solid #e7e9fc;
 }
 .button-portfolio :hover {
   border: 1px solid transparent;
@@ -425,7 +426,6 @@ img {
   border: 1px solid #e7e9fc;
   border-top: none;
   padding: 32px 16px;
-  margin-bottom: 8px;
 }
 
 .headline {
