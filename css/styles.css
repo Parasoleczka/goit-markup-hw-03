@@ -355,7 +355,7 @@ img {
   color: #2e2f42;
   text-decoration: none;
   display: flex;
-  align-items: flex-start;
+  align-items: center;
   padding: 24px 0;
   list-style: none;
 }
