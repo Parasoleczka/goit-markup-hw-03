@@ -387,9 +387,12 @@ img {
 
 .button-portfolio {
   list-style: none;
-  border: 1px solid var(#e7e9fc)
+  border: 1px solid var(#e7e9fc);
+border: 1px solid transparent
 }
-
+.button-portfolio :hover{
+  border: 1px solid transparent 
+}
 .button-portfolio-all {
   color: #4d5ae5;
   padding: 12px 24px;
