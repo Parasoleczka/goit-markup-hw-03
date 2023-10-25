@@ -28,7 +28,6 @@ body {
 }
 .header {
   border-bottom: 1px solid #e7e9fc;
-  
 }
 .header-wrap {
   display: flex;
@@ -36,11 +35,10 @@ body {
 }
 .navigation {
   display: flex;
-  align-items: flex-start;
+  align-items: center;
   gap: 40px;
   list-style: none;
   color: #2e2f42;
-  padding: 24px 0;
 }
 
 .menu {
