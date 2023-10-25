@@ -416,7 +416,8 @@ img {
   padding: 12px 24px;
   border-radius: 4px;
   cursor: pointer;
-  border: 1px solid var(#e7e9fc);
+   border: 1px solid transparent;
+   border: 1px solid var(#e7e9fc);
 }
 
 .button-portfolio-Design {
@@ -468,7 +469,9 @@ img {
   letter-spacing: 0.4px;
   padding: 32px 16px;
 }
-
+.headline {
+  margin-bottom: 8px;
+}
 .text {
   letter-spacing: 0.03em;
   font-style: normal;
