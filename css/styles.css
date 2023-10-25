@@ -359,7 +359,7 @@ img {
   text-decoration: none;
   display: flex;
   align-items: flex-start;
-  gap: 40px;
+  padding: 24px 0;
   list-style: none;
 }
 
@@ -416,8 +416,8 @@ img {
   padding: 12px 24px;
   border-radius: 4px;
   cursor: pointer;
-   border: 1px solid transparent;
-   border: 1px solid var(#e7e9fc);
+  border: 1px solid transparent;
+  border: 1px solid var(#e7e9fc);
 }
 
 .button-portfolio-Design {
