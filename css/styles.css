@@ -28,7 +28,7 @@ body {
 }
 .header {
   border-bottom: 1px solid #e7e9fc;
-  padding: 24px 0;
+  
 }
 .header-wrap {
   display: flex;
@@ -40,6 +40,7 @@ body {
   gap: 40px;
   list-style: none;
   color: #2e2f42;
+  padding: 24px 0;
 }
 
 .menu {
@@ -286,7 +287,7 @@ img {
   color: #f4f4fd;
 }
 .about-us {
-  padding-bottom: 120px 0;
+  padding: 120px 0;
 }
 
 .button {
