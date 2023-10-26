@@ -50,6 +50,7 @@ body {
   color: #2e2f42;
   margin-right: auto;
   gap: 40px;
+  list-style: none;
 }
 
 .address {
