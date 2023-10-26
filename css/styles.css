@@ -49,6 +49,7 @@ body {
   text-decoration: none;
   color: #2e2f42;
   margin-right: auto;
+  gap: 40px;
 }
 
 .address {
@@ -235,7 +236,6 @@ img {
   font-weight: 400;
   line-height: 24px;
   letter-spacing: 0.32px;
-  
 }
 
 .footer-container {
@@ -339,7 +339,7 @@ img {
   text-decoration: none;
 }
 
-.links-portfolio {
+.links {
   list-style: none;
   text-decoration: none;
   color: #2e2f42;
@@ -347,25 +347,6 @@ img {
   align-items: flex-start;
   gap: 40px;
   cursor: pointer;
-}
-
-.links-studio {
-  color: #2e2f42;
-  text-decoration: none;
-  display: flex;
-  align-items: center;
-  padding: 24px 0;
-  list-style: none;
-}
-
-.links-contacts {
-  text-decoration: none;
-  color: #2e2f42;
-  display: flex;
-  align-items: flex-start;
-  gap: 40px;
-  list-style: none;
-  padding: 24px 0;
 }
 
 .section-portfolio {
