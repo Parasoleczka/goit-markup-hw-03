@@ -341,6 +341,7 @@ img {
 }
 
 .links {
+  margin-bottom: 8px;
   list-style: none;
   text-decoration: none;
   color: #2e2f42;
