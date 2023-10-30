@@ -65,7 +65,7 @@ body {
   padding: 24px 0;
 }
 .address-mail {
-   color: #2e2f42;
+  color: #2e2f42;
   list-style: none;
   text-decoration: none;
 }
@@ -153,8 +153,6 @@ body {
   justify-content: flex-start;
   margin: 0 auto;
   list-style-type: none;
-  padding-bottom: 94px;
-  padding-top: 94px;
   gap: 24px;
 }
 .about-text-items {
@@ -238,8 +236,7 @@ img {
 .footer-container {
   background-color: var(--secondry-bacground-color);
   color: var(--tittle-color);
-  padding-bottom: 100px;
-  padding-top: 100px;
+   padding-top: 100px;
 }
 .footer-logo {
   color: var(--main-color);
@@ -296,18 +293,15 @@ img {
   min-width: 169px;
   min-height: 56px;
 }
-.logo-web-header-portfolio {
-  color: var(--blue-color);
-}
-.nav-header-portfolio {
+/* .nav-header-portfolio {
   display: flex;
   align-items: center;
   justify-content: flex-start;
   background: var(--WHITE, #fff);
   width: 1440px;
   height: 72px;
-  margin-right: auto;
-}
+  margin-right: auto; */
+
 .ul-portfolio {
   display: flex;
   justify-content: flex-start;
@@ -346,10 +340,9 @@ img {
   gap: 40px;
   cursor: pointer;
   padding: 24px 0;
-  
 }
 .links-menu {
-  font-weight: 500px;
+  font-weight: 500;
   list-style: none;
   text-decoration: none;
   color: #2e2f42;
@@ -378,7 +371,7 @@ img {
 
 .button-portfolio {
   list-style: none;
-  border: 1px solid transparent;
+    border: 1px solid transparent;
   color: #4d5ae5;
   padding: 12px 24px;
   border-radius: 4px;
@@ -415,7 +408,6 @@ img {
 .items {
   border: 1px solid #e7e9fc;
   padding: 32px 16px;
-  margin-bottom: 8px;
   border: 1px solid #e7e9fc;
   border-top: none;
 }
