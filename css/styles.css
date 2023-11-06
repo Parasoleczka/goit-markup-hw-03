@@ -236,7 +236,7 @@ img {
 .footer-container {
   background-color: var(--secondry-bacground-color);
   color: var(--tittle-color);
-   padding-top: 100px;
+  padding: 100px 0;
 }
 .footer-logo {
   color: var(--main-color);
@@ -371,7 +371,7 @@ img {
 
 .button-portfolio {
   list-style: none;
-    border: 1px solid transparent;
+  border: 1px solid transparent;
   color: #4d5ae5;
   padding: 12px 24px;
   border-radius: 4px;
@@ -382,7 +382,10 @@ img {
   border: 1px solid transparent;
   color: #ffffff;
 }
-
+.button-portfolio :hover {
+  border: 1px solid transparent;
+  color: #ffffff;
+}
 .visually-hidden {
   position: absolute;
   width: 1px;
