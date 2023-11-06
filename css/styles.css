@@ -363,12 +363,14 @@ img {
   margin-bottom: 72px;
 }
 
-.hero-button-portfolio :hover :focus {
+.hero-button-portfolio :hover {
   background-color: #404bbf;
   color: #e5e5e5;
   border: 1px solid transparent;
 }
-
+.hero-button-portfolio :fokus {
+  border: 1px solid transparent; 
+}
 .button-portfolio {
   list-style: none;
   border: 1px solid transparent;
@@ -377,14 +379,6 @@ img {
   border-radius: 4px;
   cursor: pointer;
   border: 1px solid #e7e9fc;
-}
-.button-portfolio :focus {
-  border: 1px solid transparent;
-  color: #ffffff;
-}
-.button-portfolio :hover {
-  border: 1px solid transparent;
-  color: #ffffff;
 }
 .visually-hidden {
   position: absolute;
