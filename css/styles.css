@@ -245,7 +245,6 @@ img {
   font-style: normal;
   text-decoration: none;
   align-items: center;
-  padding-bottom: 17.5px;
   font-size: 18px;
   line-height: 1.17;
   letter-spacing: 0.03em;
@@ -361,15 +360,16 @@ img {
   justify-content: center;
   gap: 24px;
   margin-bottom: 72px;
+  list-style: none;
 }
 
 .hero-button-portfolio :hover {
   background-color: #404bbf;
   color: #e5e5e5;
-  border: 1px solid transparent;
+  border-radius: 4px;
 }
 .hero-button-portfolio :focus {
-  border: 1px solid transparent; 
+  border-radius: 4px;
 }
 .button-portfolio {
   list-style: none;
