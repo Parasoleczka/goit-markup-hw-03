@@ -363,7 +363,7 @@ img {
   margin-bottom: 72px;
 }
 
-.hero-button-portfolio :hover {
+.hero-button-portfolio :hover :focus {
   background-color: #404bbf;
   color: #e5e5e5;
   border: 1px solid transparent;
