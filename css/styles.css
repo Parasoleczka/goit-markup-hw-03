@@ -368,7 +368,7 @@ img {
   color: #e5e5e5;
   border: 1px solid transparent;
 }
-.hero-button-portfolio :fokus {
+.hero-button-portfolio :focus {
   border: 1px solid transparent; 
 }
 .button-portfolio {
